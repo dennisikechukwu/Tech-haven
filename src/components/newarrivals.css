@@ -1,0 +1,38 @@
+/* src/components/NewArrivals.css */
+.new-arrivals {
+    padding: 20px;
+  }
+  
+  .custom-arrow {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10rem;
+    background: rgba(98, 99, 108, 0.5);
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    z-index: 1;
+  }
+  
+  .custom-arrow:hover {
+    background: rgba(0, 0, 0, 0.7);
+  }
+  
+  .next-arrow {
+    right: 10px;
+  }
+  
+  .prev-arrow {
+    left: 10px;
+  }
+  
+
+  @media (max-width: 768px) {
+    
+  }
+  
+  
